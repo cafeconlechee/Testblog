@@ -8,6 +8,7 @@ body
     padding: 0;
     background-image: url(https://wallpapercave.com/wp/X49EwD0.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 #cabecera
@@ -16,7 +17,12 @@ body
     color: #ffce3f;
     font-weight: bold;
     margin: 0;
-    padding: 0.9em;
+    padding: 0.5em 0 0.5em 1em;
+}
+#cabecera #logo
+{
+    width: 30px;
+    vertical-align: middle;
 }
 
 #cabecera #tagline
@@ -30,11 +36,16 @@ body
     width: 60%;
     padding: 2em;
     text-align: left;
-    border: 3px solid whitesmoke;
     margin: 0 auto;
 }
 
 #container h1
 {
     font-size: 20px;
+}
+
+#post
+{
+    background: whitesmoke;
+    padding: 2em;
 }
