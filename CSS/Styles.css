@@ -30,13 +30,8 @@ body
     width: 60%;
     padding: 2em;
     text-align: left;
-<<<<<<< HEAD
-    border: 1px solid #DDD;
-    margin: 20px auto;
-=======
     border: 3px solid whitesmoke;
     margin: 0 auto;
->>>>>>> 12f179087985cef4f5c5771814406e592b4c35d6
 }
 
 #container h1
