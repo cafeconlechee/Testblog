@@ -22,7 +22,7 @@ body
 #cabecera #logo
 {
     width: 30px;
-    vertical-align: middle;
+    vertical-align: text-bottom;
 }
 
 #cabecera #tagline
@@ -76,4 +76,9 @@ body
 {
     background: whitesmoke;
     padding: 2em;
+}
+
+.close {
+    float: right;
+    margin-right: 12px;
 }
